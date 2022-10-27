@@ -24,4 +24,7 @@ describe("randomBetween", () => {
   });
 });
 //npm i coveralls -D
-//
+//npm run test -- --coverage
+//展示測試覆蓋率，每個團隊的要求都不一樣，通常都是50%以上
+//branch與行數的覆蓋率計算方法都不一樣，if有100行，else有2行
+//行數覆蓋率100/102，branch覆蓋率50%，哪一個比較合理看團隊
